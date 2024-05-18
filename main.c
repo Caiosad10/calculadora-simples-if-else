@@ -15,9 +15,12 @@ int main(){
 
   while (operador != '+' && operador != '-'){
     fflush(stdin);
-    printf("Operador inválido, digite novamente o operador(): \n");
+    printf("Operador inválido, digite novamente o operador(+/-): \n");
     scanf(" %c", &operador);
-    break;
+
+    if (operador == '+' || operador == '-'){
+      break;
+    }
   }
   fflush(stdin);
   printf("Digite o segundo numero: \n");
@@ -29,8 +32,8 @@ int main(){
   }
   else if (operador == '-'){
     resultado = numero1 - numero2;
-    printf("O resultado da subtração é: %.2f\n",resultado);      ;
-    }
+    printf("O resultado da subtração é: %.2f\n",resultado);
+  }
   
   return 0;
 }
