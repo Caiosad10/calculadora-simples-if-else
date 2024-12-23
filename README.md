@@ -2,7 +2,7 @@
 
 Feito apenas com os operadores de soma e subtração
 
-- Criado um loop com WHILE para que se o operador for diferente dos solicitados, possa ser feito novamente a digitação e armazenamento do valor em "operador":
+- Criado um loop com WHILE para que se o operador for diferente dos solicitados, possa ser feito novamente a digitação e armazenamento do valor em ` operador `:
 
 ![image](https://github.com/Caiosad10/calculadora-simples-if-else/assets/150187420/949be3b5-c70d-4a2b-9c90-2af4de0ba320)
 
